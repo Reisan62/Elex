@@ -65,43 +65,43 @@ class Main_page(Base):
 
     def click_tv_and_kino(self):
         self.get_tv_and_kino().click()
-        print("Click tv and kino")
+        print("Click Televizory i Kino")
 
     def click_smart_and_tech(self):
         self.get_smart_and_tech().click()
-        print("Click smart and tech")
+        print("Click Smartfony i cifrovaya tekhnika")
 
     def click_pk_and_nout(self):
         self.get_pk_and_nout().click()
-        print("Click get pk and nout")
+        print("Click Kompyutery i noutbuki")
 
     def click_tech_for_kitchen(self):
         self.get_tech_for_kitchen().click()
-        print("Click tech for kitchen")
+        print("Click Tekhnika dlya kuhni")
 
     def click_vstroi_tech(self):
         self.get_vstroi_tech().click()
-        print("Click vstroi tech")
+        print("Click Vstraivaemaya tekhnika")
 
     def click_tech_for_home(self):
         self.get_tech_for_home().click()
-        print("Click tech for home")
+        print("Click Tekhnika dlya doma")
 
     def click_beauty_and_health(self):
         self.get_beauty_and_health().click()
-        print("Click beauty and health")
+        print("Click Krasota i zdorove")
 
     def click_music_tech(self):
         self.get_music_tech().click()
-        print("Click music tech")
+        print("Click Muzykalnaya tekhnika")
 
     def click_acum_and_rest(self):
         self.get_acum_and_rest().click()
-        print("Click acum and rest")
+        print("Click Akkumulyatornyj transport i aktivnyj otdyh")
 
     def click_instruments(self):
         self.get_instruments().click()
-        print("Click instruments")
+        print("Click Instrumenty")
 
 
     # Methods

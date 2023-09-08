@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from pages.main_page import Main_page
+from pages.smartfony_i_cifrovaya_tekhnika_page import Smartfony_i_cifrovaya_tekhnika_page
 from pages.televizory_page import Televizory_page
 from pages.tv_and_kino_page import Tv_and_kino_page
 
@@ -20,15 +21,13 @@ def test_buy_product_1():
 
     print("Start Test 1")
 
-
     mp = Main_page(driver)
-    mp.select_tv_and_kino()
+    mp.select_smart_and_tech()
 
-    tvkino = Tv_and_kino_page(driver)
-    tvkino.select_tv()
+    smarthons = Smartfony_i_cifrovaya_tekhnika_page(driver)
+    smarthons.select_fotoaksessuary()
 
-    televizory = Televizory_page(driver)
-    televizory.select_smart_tv()
+    print("Finish Test 1")
 
 
 

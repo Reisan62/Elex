@@ -42,23 +42,23 @@ class Tv_and_kino_page(Base):
 
     def click_tv(self):
         self.get_tv().click()
-        print("Click tv")
+        print("Click Televizory")
 
     def click_sputnik_tv(self):
         self.get_sputnik_tv().click()
-        print("Click sputnik tv")
+        print("Click Sputnikovoe i cifrovoe TV")
 
     def click_aksessuary_for_tv(self):
         self.get_aksessuary_for_tv().click()
-        print("Click aksessuary for tv")
+        print("Click Aksessuary dlya televizorov")
 
     def click_pleery_for_tv(self):
         self.get_pleery_for_tv().click()
-        print("Click pleery for tv")
+        print("Click Pleery dlya televizorov")
 
     def click_tv_stoyki(self):
         self.get_tv_stoyki().click()
-        print("Click tv stoyki")
+        print("Click TV stojki")
 
 
     # Methods
