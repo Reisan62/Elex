@@ -125,7 +125,7 @@ class Main_page(Base):
         self.driver.maximize_window()
         self.get_current_url()
         self.click_pk_and_nout()
-        self.assert_url("https://elex.ru/catalog/televizory-i-kino/")
+        self.assert_url("https://elex.ru/catalog/kompyutery-i-noutbuki/")
 
     def select_tech_for_kitchen(self):
         self.driver.get(self.url)
