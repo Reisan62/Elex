@@ -9,6 +9,7 @@ from pages.televizory_i_kino._1_tv_and_kino_page import Tv_and_kino_page
 from pages.televizory_i_kino._1_1_televizory_page import Televizory_page
 from pages.kompyutery_i_noutbuki._1_kompyutery_i_noutbuki_page import Kompyutery_i_noutbuki_page
 from pages.kompyutery_i_noutbuki._1_3_planshety_page import Planshety_page
+from pages.tekhnika_dlya_kukhni._1_tekhnika_dlya_kukhni_page import Tekhnika_dlya_kukhni_page
 
 def test_buy_product_1():
     options = webdriver.ChromeOptions()
@@ -22,13 +23,11 @@ def test_buy_product_1():
     print("Start Test 1")
 
     mp = Main_page(driver)
-    mp.select_smart_and_tech()
+    mp.select_tech_for_kitchen()
 
-    pk = Smartfony_i_cifrovaya_tekhnika_page(driver)
-    pk.select_smart_i_sotov_tel()
+    pk = Tekhnika_dlya_kukhni_page(driver)
+    pk.select_sifony_dlya_kuhni()
 
-    plansh = Smartfony_i_sotovye_telefony_page(driver)
-    plansh.select_ustrojstva_dopolnennoj_realnosti()
 
 
     print("Finish Test 1")
