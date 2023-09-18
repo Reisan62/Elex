@@ -49,8 +49,8 @@ def test_buy_product_1():
     prod1.select_smart_spisok()
     time.sleep(1)
     prod1.select_vybor_smart_tv()
-    # prod1.select_razreshenie_ekrana_spisok()
-    # prod1.select_vybor_razreshenie_ekrana()
+    prod1.select_razreshenie_ekrana_spisok()
+    prod1.select_vybor_razreshenie_ekrana()
 
 
 

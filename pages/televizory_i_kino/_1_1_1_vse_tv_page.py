@@ -16,9 +16,9 @@ class Vse_tv_page(Base):
     brend_spisok = "//span[.='Бренд']"  # Список брендов
     vybor_brenda = "//span[.='SAMSUNG ']"  # Выбираем бренд ( в данном случаей SAMSUNG)
     smart_spisok = "//span[.='Smart TV']"  # Список Smart TV
-    vybor_smart_tv = "//input[@name='arrFilter_17_1004570158']//span[.='есть ']"  # Выбор наличиня Smart TV ( в данном случаей "есть")
+    vybor_smart_tv = "//label[@for='arrFilter_17_1004570158']//span[.='есть ']"  # Выбор наличиня Smart TV ( в данном случаей "есть")
     razreshenie_ekrana_spisok = "//span[.='Разрешение экрана']"  # Список разрешений экрана
-    vybor_razreshenie_ekrana = "//input[@id='arrFilter_17_2609115691']"  # Выбоор разрешения экрана (в данном случае 4k)
+    vybor_razreshenie_ekrana = "//span[.='4K Ulitra HD 3840х2160 ']"  # Выбоор разрешения экрана (в данном случае 4k)
 
 
     # Getters
