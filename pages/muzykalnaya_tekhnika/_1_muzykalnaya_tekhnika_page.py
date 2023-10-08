@@ -14,12 +14,12 @@ class Muzykalnaya_tekhnika_page(Base):
 
     # Locators
 
-    avtoaudiotekhnika = "//div/a[@href = '/catalog/muzykalnaya-tekhnika/avtoaudiotekhnika/']"  # Автоаудиотехника
-    audio_dlya_doma = "//div/a[@href ='/catalog/muzykalnaya-tekhnika/audio-dlya-doma/']"  # Аудио для дома
-    mikrofony = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/muzykalnaya-tekhnika/mikrofony01312/']"  # Микрофоны
-    naushniki = "//div/a[@href ='/catalog/muzykalnaya-tekhnika/naushniki01011/']"  # Наушники
-    portativnoe_audio = "//div/a[@href ='/catalog/muzykalnaya-tekhnika/portativnoe-audio/']"  # Портативное аудио
-    aksessuary_dlya_muzykalnoj_tekhniki = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/muzykalnaya-tekhnika/hi-fi/']"  # Аксессуары для музыкальной техники
+    avtoaudiotekhnika = "//div/a[@href = '/catalog/muzykalnaya-tekhnika/avtoaudiotekhnika/']"       # Автоаудиотехника
+    audio_dlya_doma = "//div/a[@href ='/catalog/muzykalnaya-tekhnika/audio-dlya-doma/']"       # Аудио для дома
+    mikrofony = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/muzykalnaya-tekhnika/mikrofony01312/']"       # Микрофоны
+    naushniki = "//div/a[@href ='/catalog/muzykalnaya-tekhnika/naushniki01011/']"       # Наушники
+    portativnoe_audio = "//div/a[@href ='/catalog/muzykalnaya-tekhnika/portativnoe-audio/']"       # Портативное аудио
+    aksessuary_dlya_muzykalnoj_tekhniki = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/muzykalnaya-tekhnika/hi-fi/']"       # Аксессуары для музыкальной техники
 
     # Getters
 

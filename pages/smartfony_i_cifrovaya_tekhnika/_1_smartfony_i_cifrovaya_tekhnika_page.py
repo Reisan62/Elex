@@ -13,21 +13,21 @@ class Smartfony_i_cifrovaya_tekhnika_page(Base):
 
     # Locators
 
-    smart_i_sotov_tel = "//div/a[@href = '/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/']"  # Смартфоны и сотовые телефоны
-    port_accum = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/portativnye-akkumulyatory01140/']"  # Портативные аккумуляторы
-    headphones = "//div/a[@href ='/catalog/telefoniya-foto-i-video/naushniki02851/']"  # Наушники и гарнитуры
-    besprovod_akust = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/besprovodnye-kolonki/']"  # Беспроводная акустика
-    сameras = "//div/a[@href ='/catalog/telefoniya-foto-i-video/fotoapparaty/']"  # Фотоаппараты
-    action_cameras = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/ekshen-kamery/']"  # Экшен камеры
-    quadcopters = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/gadzhety01138/']"  # Квадрокоптеры
-    smart_watches_i_fit_bracel = "//div/a[@href='/catalog/telefoniya-foto-i-video/smart-chasy-i-fitnes-braslety/']"  # Смарт-часы и фитнес браслеты
-    automobil_electr = "//div/a[@href ='/catalog/telefoniya-foto-i-video/avtomobilnaya-elektronika01053/']"  # Автомобильная электроника
-    optica = "//div/a[@href ='/catalog/telefoniya-foto-i-video/optika/']"  # Оптика
-    home_phone = "//div/a[@href ='/catalog/telefoniya-foto-i-video/domashnie-telefony/']"  # Домашние телефоны
-    radiostancii = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/radiostantsii00261/']"  # Радиостанции
-    videonablyudenie_i_umnyj_dom = "//div/a[@href ='/catalog/telefoniya-foto-i-video/videonablyudenie-i-umnyy-dom/']"  # Видеонаблюдение и умный дом
-    e_books = "//div/a[@href='/catalog/telefoniya-foto-i-video/elektronnye-knigi03112/']"  # Электронные книги
-    fotoaksessuary = "//div/a[@href ='/catalog/telefoniya-foto-i-video/fotoaksessuary/']"  # Фотоаксессуары
+    smart_i_sotov_tel = "//div/a[@href = '/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/']"       # Смартфоны и сотовые телефоны
+    port_accum = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/portativnye-akkumulyatory01140/']"       # Портативные аккумуляторы
+    headphones = "//div/a[@href ='/catalog/telefoniya-foto-i-video/naushniki02851/']"       # Наушники и гарнитуры
+    besprovod_akust = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/besprovodnye-kolonki/']"       # Беспроводная акустика
+    сameras = "//div/a[@href ='/catalog/telefoniya-foto-i-video/fotoapparaty/']"       # Фотоаппараты
+    action_cameras = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/ekshen-kamery/']"       # Экшен камеры
+    quadcopters = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/gadzhety01138/']"       # Квадрокоптеры
+    smart_watches_i_fit_bracel = "//div/a[@href='/catalog/telefoniya-foto-i-video/smart-chasy-i-fitnes-braslety/']"       # Смарт-часы и фитнес браслеты
+    automobil_electr = "//div/a[@href ='/catalog/telefoniya-foto-i-video/avtomobilnaya-elektronika01053/']"       # Автомобильная электроника
+    optica = "//div/a[@href ='/catalog/telefoniya-foto-i-video/optika/']"       # Оптика
+    home_phone = "//div/a[@href ='/catalog/telefoniya-foto-i-video/domashnie-telefony/']"       # Домашние телефоны
+    radiostancii = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/radiostantsii00261/']"       # Радиостанции
+    videonablyudenie_i_umnyj_dom = "//div/a[@href ='/catalog/telefoniya-foto-i-video/videonablyudenie-i-umnyy-dom/']"       # Видеонаблюдение и умный дом
+    e_books = "//div/a[@href='/catalog/telefoniya-foto-i-video/elektronnye-knigi03112/']"       # Электронные книги
+    fotoaksessuary = "//div/a[@href ='/catalog/telefoniya-foto-i-video/fotoaksessuary/']"       # Фотоаксессуары
 
 
 

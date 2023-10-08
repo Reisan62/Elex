@@ -14,11 +14,11 @@ class Smartfony_i_sotovye_telefony_page(Base):
 
     # Locators
 
-    smartfony = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/smartfony-i-kommunikatory/']"  # Смартфоны
-    sotovye_telefony = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/sotovye-telefony/']"  # Сотовые телефоны
-    aksessuary_dlya_telefonov = "//div/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/aksessuary-dlya-telefonov/']"  # Аксессуары для телефонов
-    kontrakty = "//div/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/kontrakty/']"  # Контракты
-    ustrojstva_dopolnennoj_realnosti = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/ustroystva-dopolnennoy-realnosti/']"  # Устройства дополненной реальности
+    smartfony = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/smartfony-i-kommunikatory/']"       # Смартфоны
+    sotovye_telefony = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/sotovye-telefony/']"       # Сотовые телефоны
+    aksessuary_dlya_telefonov = "//div/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/aksessuary-dlya-telefonov/']"       # Аксессуары для телефонов
+    kontrakty = "//div/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/kontrakty/']"       # Контракты
+    ustrojstva_dopolnennoj_realnosti = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/telefoniya-foto-i-video/smartfony-i-sotovye-telefony/ustroystva-dopolnennoy-realnosti/']"       # Устройства дополненной реальности
 
 
     # Getters

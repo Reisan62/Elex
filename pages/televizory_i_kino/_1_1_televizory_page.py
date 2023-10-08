@@ -13,12 +13,12 @@ class Televizory_page(Base):
 
     # Locators
 
-    all_tv = "//div[@class='tabs__content_inner js-accord-content']/a[@href='/catalog/televizory-i-kino/televizory/led-televizory/']"  # Все телевизоры
-    fourk_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/4k-televizory/']"  # 4K телевизоры
-    eightk_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/8k-televizory/']"  # 8К телевизоры
-    smart_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/smart-televizory/']"  # SMART телевизоры
-    qled_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/qled-televizory/']"  # QLED телевизоры
-    oled_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/oled-televizory/']"  # OLED телевизоры
+    all_tv = "//div[@class='tabs__content_inner js-accord-content']/a[@href='/catalog/televizory-i-kino/televizory/led-televizory/']"       # Все телевизоры
+    fourk_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/4k-televizory/']"       # 4K телевизоры
+    eightk_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/8k-televizory/']"       # 8К телевизоры
+    smart_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/smart-televizory/']"       # SMART телевизоры
+    qled_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/qled-televizory/']"       # QLED телевизоры
+    oled_tv = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/televizory-i-kino/televizory/oled-televizory/']"       # OLED телевизоры
 
 
     # Getters

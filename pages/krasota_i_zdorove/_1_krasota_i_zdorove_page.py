@@ -13,17 +13,17 @@ class Krasota_i_zdorove_page(Base):
 
     # Locators
 
-    tovary_dlya_strizhki_volos = "//div/a[@href = '/catalog/krasota-i-zdorove/strizhka-volos/']"  # Товары для стрижки волос
-    tovary_dlya_ukladki_volos = "//div/a[@href ='/catalog/krasota-i-zdorove/ukladka-volos/']"  # Товары для укладки волос
-    britvy = "//div/a[@href ='/catalog/krasota-i-zdorove/britvy02930/']"  # Бритвы
-    epilyatory = "//div/a[@href ='/catalog/krasota-i-zdorove/epilyatory03011/']"  # Эпиляторы
-    zubnye_shchetki = "//div/a[@href ='/catalog/krasota-i-zdorove/zubnye-shchetki02929/']"  # Зубные щетки
-    kosmeticheskie_pribory = "//div/a[@href ='/catalog/krasota-i-zdorove/kosmeticheskie-pribory/']"  # Косметические приборы
-    tovary_dlya_zdorovya_i_krasoty = "//div/a[@href ='/catalog/krasota-i-zdorove/zdorovyy-obraz-zhizni/']"  # Товары для здоровья и красоты
-    medicinskie_pribory = "//div/a[@href='/catalog/krasota-i-zdorove/meditsinskie-pribory/']"  # Медицинские приборы
-    vesy_napolnye = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/krasota-i-zdorove/vesy-napolnye/']"  # Весы напольные
-    vannochki_dlya_nog = "//div[@class='tabs__content_inner js-accord-content']/a[@href='/catalog/krasota-i-zdorove/vannochki-dlya-nog/']"  # Ванночки для ног
-    aksessuary_dlya_krasoty_i_zdorovya = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/krasota-i-zdorove/aksessuary00204/']"  # Аксессуары для красоты и здоровья
+    tovary_dlya_strizhki_volos = "//div/a[@href = '/catalog/krasota-i-zdorove/strizhka-volos/']"       # Товары для стрижки волос
+    tovary_dlya_ukladki_volos = "//div/a[@href ='/catalog/krasota-i-zdorove/ukladka-volos/']"       # Товары для укладки волос
+    britvy = "//div/a[@href ='/catalog/krasota-i-zdorove/britvy02930/']"       # Бритвы
+    epilyatory = "//div/a[@href ='/catalog/krasota-i-zdorove/epilyatory03011/']"       # Эпиляторы
+    zubnye_shchetki = "//div/a[@href ='/catalog/krasota-i-zdorove/zubnye-shchetki02929/']"       # Зубные щетки
+    kosmeticheskie_pribory = "//div/a[@href ='/catalog/krasota-i-zdorove/kosmeticheskie-pribory/']"       # Косметические приборы
+    tovary_dlya_zdorovya_i_krasoty = "//div/a[@href ='/catalog/krasota-i-zdorove/zdorovyy-obraz-zhizni/']"       # Товары для здоровья и красоты
+    medicinskie_pribory = "//div/a[@href='/catalog/krasota-i-zdorove/meditsinskie-pribory/']"       # Медицинские приборы
+    vesy_napolnye = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/krasota-i-zdorove/vesy-napolnye/']"       # Весы напольные
+    vannochki_dlya_nog = "//div[@class='tabs__content_inner js-accord-content']/a[@href='/catalog/krasota-i-zdorove/vannochki-dlya-nog/']"       # Ванночки для ног
+    aksessuary_dlya_krasoty_i_zdorovya = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/krasota-i-zdorove/aksessuary00204/']"       # Аксессуары для красоты и здоровья
 
 
     # Getters

@@ -14,12 +14,12 @@ class Instrumenty_page(Base):
 
     # Locators
 
-    elektroinstrument = "//div/a[@href = '/catalog/instrumenty/elektroinstrument01238/']"  # Электроинструмент
-    stanki = "//div/a[@href ='/catalog/instrumenty/stanki/']"  # Станки
-    ruchnoj_instrument = "//div/a[@href ='/catalog/instrumenty/ruchnoy-instrument/']"  # Ручной инструмент
-    nabory_instrumentov = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/instrumenty/nabory-instrumentov/']"  # Наборы инструментов
-    raskhodnye_materialy = "//div/a[@href ='/catalog/instrumenty/raskhodnye-materialy/']"  # Расходные материалы
-    silovaya_tekhnika = "//div/a[@href = '/catalog/instrumenty/silovaya-tekhnika/']"  # Силовая техника
+    elektroinstrument = "//div/a[@href = '/catalog/instrumenty/elektroinstrument01238/']"       # Электроинструмент
+    stanki = "//div/a[@href ='/catalog/instrumenty/stanki/']"       # Станки
+    ruchnoj_instrument = "//div/a[@href ='/catalog/instrumenty/ruchnoy-instrument/']"       # Ручной инструмент
+    nabory_instrumentov = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/instrumenty/nabory-instrumentov/']"       # Наборы инструментов
+    raskhodnye_materialy = "//div/a[@href ='/catalog/instrumenty/raskhodnye-materialy/']"       # Расходные материалы
+    silovaya_tekhnika = "//div/a[@href = '/catalog/instrumenty/silovaya-tekhnika/']"       # Силовая техника
 
     # Getters
 

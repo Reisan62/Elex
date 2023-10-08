@@ -13,16 +13,16 @@ class Kompyutery_i_noutbuki_page(Base):
 
     # Locators
 
-    kompyutery_i_noutbuki = "//div/a[@href = '/catalog/kompyutery-i-noutbuki/kompyutery-i-noutbuki00012/']"  # Компьютеры и ноутбуки
-    monitory = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/kompyutery-i-noutbuki/monitory/']"  # Мониторы
-    planshety = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/planshety/']"  # Планшеты
-    igrovye_kompyutery_i_aksessuary = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/igrovye-aksessuary/']"  # Игровые компьютеры и аксессуары
-    printery_i_skanery = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/printery-i-skanery/']"  # Принтеры и сканеры
-    setevoe_oborudovanie = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/kompyutery-i-noutbuki/setevoe-oborudovanie/']"  # Сетевое оборудование
-    nositeli_informacii = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/nositeli-informatsii/']"  # Носители информации
-    aksessuary_dlya_kompyuterov = "//div/a[@href='/catalog/kompyutery-i-noutbuki/aksessuary-dlya-kompyuterov/']"  # Аксессуары для компьютеров
-    kompyuternaya_mebel = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/kompyuternaya-mebel/']"  # Компьютерная мебель
-    programmnoe_obespechenie = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/programmnoe-obespechenie/']"  # Программное обеспечение
+    kompyutery_i_noutbuki = "//div/a[@href = '/catalog/kompyutery-i-noutbuki/kompyutery-i-noutbuki00012/']"       # Компьютеры и ноутбуки
+    monitory = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/kompyutery-i-noutbuki/monitory/']"       # Мониторы
+    planshety = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/planshety/']"       # Планшеты
+    igrovye_kompyutery_i_aksessuary = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/igrovye-aksessuary/']"       # Игровые компьютеры и аксессуары
+    printery_i_skanery = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/printery-i-skanery/']"       # Принтеры и сканеры
+    setevoe_oborudovanie = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/kompyutery-i-noutbuki/setevoe-oborudovanie/']"       # Сетевое оборудование
+    nositeli_informacii = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/nositeli-informatsii/']"       # Носители информации
+    aksessuary_dlya_kompyuterov = "//div/a[@href='/catalog/kompyutery-i-noutbuki/aksessuary-dlya-kompyuterov/']"       # Аксессуары для компьютеров
+    kompyuternaya_mebel = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/kompyuternaya-mebel/']"       # Компьютерная мебель
+    programmnoe_obespechenie = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/programmnoe-obespechenie/']"       # Программное обеспечение
 
 
     # Getters

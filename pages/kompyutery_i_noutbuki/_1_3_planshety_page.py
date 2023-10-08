@@ -13,8 +13,8 @@ class Planshety_page(Base):
 
     # Locators
 
-    planshetnye_pk = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/kompyutery-i-noutbuki/planshety/planshetnye-pk/']"  # Планшетные ПК
-    aksessuary_dlya_planshetov = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/planshety/aksessuary-dlya-planshetov/']"  # Аксессуары для планшетов
+    planshetnye_pk = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/kompyutery-i-noutbuki/planshety/planshetnye-pk/']"       # Планшетные ПК
+    aksessuary_dlya_planshetov = "//div/a[@href ='/catalog/kompyutery-i-noutbuki/planshety/aksessuary-dlya-planshetov/']"       # Аксессуары для планшетов
 
 
     # Getters

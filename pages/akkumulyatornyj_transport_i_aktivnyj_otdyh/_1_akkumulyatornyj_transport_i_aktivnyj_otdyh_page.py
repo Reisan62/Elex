@@ -14,13 +14,13 @@ class Akkumulyatornyj_transport_i_aktivnyj_otdyh_page(Base):
 
     # Locators
 
-    transport = "//div/a[@href = '/catalog/aktivnyy-otdykh/akkumulyatornyy-transport/']"  # Транспорт
-    tovary_dlya_avto = "//div/a[@href ='/catalog/aktivnyy-otdykh/tovary-dlya-avto01360/']"  # Товары для авто
-    tovary_dlya_piknika_i_turizma = "//div/a[@href ='/catalog/aktivnyy-otdykh/tovary-dlya-piknika-i-turizma/']"  # Товары для пикника и туризма
-    tovary_dlya_dachi = "//div/a[@href ='/catalog/aktivnyy-otdykh/tovary-dlya-dachi/']"  # Товары для дачи
-    sportivnye_tovary = "//div/a[@href ='/catalog/aktivnyy-otdykh/sportivnye-tovary/']"  # Спортивные товары
-    metalloiskateli = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/aktivnyy-otdykh/metalloiskateli/']"  # Металлоискатели
-    zimnie_tovary = "//div/a[@href = '/catalog/aktivnyy-otdykh/zimnie-tovary/']"  # Зимние товары
+    transport = "//div/a[@href = '/catalog/aktivnyy-otdykh/akkumulyatornyy-transport/']"       # Транспорт
+    tovary_dlya_avto = "//div/a[@href ='/catalog/aktivnyy-otdykh/tovary-dlya-avto01360/']"       # Товары для авто
+    tovary_dlya_piknika_i_turizma = "//div/a[@href ='/catalog/aktivnyy-otdykh/tovary-dlya-piknika-i-turizma/']"       # Товары для пикника и туризма
+    tovary_dlya_dachi = "//div/a[@href ='/catalog/aktivnyy-otdykh/tovary-dlya-dachi/']"       # Товары для дачи
+    sportivnye_tovary = "//div/a[@href ='/catalog/aktivnyy-otdykh/sportivnye-tovary/']"       # Спортивные товары
+    metalloiskateli = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href = '/catalog/aktivnyy-otdykh/metalloiskateli/']"       # Металлоискатели
+    zimnie_tovary = "//div/a[@href = '/catalog/aktivnyy-otdykh/zimnie-tovary/']"       # Зимние товары
 
 
     # Getters

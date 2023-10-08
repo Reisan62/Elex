@@ -18,19 +18,18 @@ from pages.krasota_i_zdorove._1_krasota_i_zdorove_page import Krasota_i_zdorove_
 from pages.muzykalnaya_tekhnika._1_muzykalnaya_tekhnika_page import Muzykalnaya_tekhnika_page
 from pages.akkumulyatornyj_transport_i_aktivnyj_otdyh._1_akkumulyatornyj_transport_i_aktivnyj_otdyh_page import Akkumulyatornyj_transport_i_aktivnyj_otdyh_page
 from pages.instrumenty._1_instrumenty_page import Instrumenty_page
+from pages.cart_page import Cart_page
 
 
-
-def test_buy_product_1():
+def test_buy_product_1(set_up):
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
     options.page_load_strategy = "none"
-    options.add_argument('--ignore-certificate-errors')
     options.add_argument('--ignore-ssl-errors')
+    options.add_argument('--ignore-certificate-errors-spki-list')
     g = Service('C:\\Users\\baldy\\PycharmProjects\\resource\\chromedriver.exe')
     driver = webdriver.Chrome(options=options, service=g,)
 
-    print("Start Test 1")
 
     mp = Main_page(driver)
     mp.select_tv_and_kino()
@@ -40,21 +39,11 @@ def test_buy_product_1():
 
     tva = Televizory_page(driver)
     tva.select_all_tv()
-    time.sleep(40)
+    time.sleep(40)     # Сайт долго прогружается
 
     prod1 = Vse_tv_page(driver)
-    prod1.select_brend_spisok()
-    prod1.select_vybor_brenda()
-    time.sleep(1)
-    prod1.select_smart_spisok()
-    time.sleep(1)
-    prod1.select_vybor_smart_tv()
-    prod1.select_razreshenie_ekrana_spisok()
-    prod1.select_vybor_razreshenie_ekrana()
+    prod1.select_product_1()
+    time.sleep(2)
 
-
-
-
-
-
-    print("Finish Test 1")
+    cp = Cart_page(driver)
+    cp.buy_without_authorization()

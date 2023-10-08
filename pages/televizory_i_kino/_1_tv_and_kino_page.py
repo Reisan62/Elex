@@ -13,11 +13,11 @@ class Tv_and_kino_page(Base):
 
     # Locators
 
-    tv = "//div/a[@href='/catalog/televizory-i-kino/televizory/']"  # Телевизоры
-    sputnik_tv = "//div/a[@href='/catalog/televizory-i-kino/televidenie/']"  # Спутниковое и цифровое ТВ
-    aksessuary_for_tv = "//div/a[@href='/catalog/televizory-i-kino/aksessuary/']"  # Аксессуары для телевизоров
-    pleery_for_tv = "//div/a[@href='/catalog/televizory-i-kino/pleery/']"  # Плееры для телевизоров
-    tv_stoyki = "//div[@class='tabs__content_inner js-accord-content']/a[@href='/catalog/televizory-i-kino/tv-stoyki/']"  # ТВ стойки
+    tv = "//div/a[@href='/catalog/televizory-i-kino/televizory/']"       # Телевизоры
+    sputnik_tv = "//div/a[@href='/catalog/televizory-i-kino/televidenie/']"       # Спутниковое и цифровое ТВ
+    aksessuary_for_tv = "//div/a[@href='/catalog/televizory-i-kino/aksessuary/']"       # Аксессуары для телевизоров
+    pleery_for_tv = "//div/a[@href='/catalog/televizory-i-kino/pleery/']"       # Плееры для телевизоров
+    tv_stoyki = "//div[@class='tabs__content_inner js-accord-content']/a[@href='/catalog/televizory-i-kino/tv-stoyki/']"       # ТВ стойки
 
 
     # Getters

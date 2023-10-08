@@ -13,15 +13,15 @@ class Tekhnika_dlya_doma_page(Base):
 
     # Locators
 
-    stirka_i_sushka = "//div/a[@href = '/catalog/tovary-dlya-doma/stirka-i-sushka/']"  # Стирка и сушка
-    pylesosy = "//div/a[@href ='/catalog/tovary-dlya-doma/pylesosy02936/']"  # Пылесосы
-    tovary_dlya_uhoda_za_odezhdoj = "//div/a[@href ='/catalog/tovary-dlya-doma/utyugi02934/']"  # Товары для ухода за одеждой
-    shvejnye_mashiny_i_aksessuary = "//div/a[@href ='/catalog/tovary-dlya-doma/shveynye-mashiny03013/']"  # Швейные машины и аксессуары
-    bytovaya_tekhnika = "//div/a[@href ='/catalog/tovary-dlya-doma/bytovaya-tekhnika/']"  # Бытовая техника
-    klimaticheskaya_tekhnika = "//div/a[@href ='/catalog/tovary-dlya-doma/klimaticheskaya-tekhnika/']"  # Климатическая техника
-    videonablyudenie_i_umnyj_dom = "//div/a[@href ='/catalog/tovary-dlya-doma/videonablyudenie-i-avtomatizatsiya/']"  # Видеонаблюдение и умный дом
-    tovary_dlya_prazdnika = "//div/a[@href='/catalog/tovary-dlya-doma/dlya-prazdnika/']"  # Товары для праздника
-    tovary_dlya_detej = "//div/a[@href ='/catalog/tovary-dlya-doma/tovary-dlya-detey00618/']"  # Товары для детей
+    stirka_i_sushka = "//div/a[@href = '/catalog/tovary-dlya-doma/stirka-i-sushka/']"       # Стирка и сушка
+    pylesosy = "//div/a[@href ='/catalog/tovary-dlya-doma/pylesosy02936/']"       # Пылесосы
+    tovary_dlya_uhoda_za_odezhdoj = "//div/a[@href ='/catalog/tovary-dlya-doma/utyugi02934/']"       # Товары для ухода за одеждой
+    shvejnye_mashiny_i_aksessuary = "//div/a[@href ='/catalog/tovary-dlya-doma/shveynye-mashiny03013/']"       # Швейные машины и аксессуары
+    bytovaya_tekhnika = "//div/a[@href ='/catalog/tovary-dlya-doma/bytovaya-tekhnika/']"       # Бытовая техника
+    klimaticheskaya_tekhnika = "//div/a[@href ='/catalog/tovary-dlya-doma/klimaticheskaya-tekhnika/']"       # Климатическая техника
+    videonablyudenie_i_umnyj_dom = "//div/a[@href ='/catalog/tovary-dlya-doma/videonablyudenie-i-avtomatizatsiya/']"       # Видеонаблюдение и умный дом
+    tovary_dlya_prazdnika = "//div/a[@href='/catalog/tovary-dlya-doma/dlya-prazdnika/']"       # Товары для праздника
+    tovary_dlya_detej = "//div/a[@href ='/catalog/tovary-dlya-doma/tovary-dlya-detey00618/']"       # Товары для детей
 
 
     # Getters

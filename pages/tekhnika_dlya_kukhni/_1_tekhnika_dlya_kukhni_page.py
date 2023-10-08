@@ -13,16 +13,16 @@ class Tekhnika_dlya_kukhni_page(Base):
 
     # Locators
 
-    prigotovlenie_pishchi = "//div/a[@href = '/catalog/tekhnika-dlya-kukhni/krupnaya-kukhonnaya-tekhnika/']"  # Приготовление пищи
-    holodilnoe_oborudovanie = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/kholodilniki02802/']"  # Холодильное оборудование
-    posudomoechnye_mashiny = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/tekhnika-dlya-kukhni/posudomoechnye-mashiny/']"  # Посудомоечные машины
-    prigotovlenie_kofe = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/prigotovlenie-kofe/']"  # Приготовление кофе
-    prochie_tovary_dlya_kuhni = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/kukhonnaya-tekhnika/']"  # Прочие товары для кухни
-    bytovaya_himiya = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/bytovaya-khimiya00911/']"  # Бытовая химия
-    posuda = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/posuda00879/']"  # Посуда
-    aksessuary_dlya_kuhni = "//div/a[@href='/catalog/tekhnika-dlya-kukhni/aksessuary-dlya-kukhni01056/']"  # Аксессуары для кухни
-    filtry_dlya_ochistki_vody = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/tekhnika-dlya-kukhni/filtry-dlya-ochistki-vody/']"  # Фильтры для очистки воды
-    sifony_dlya_kuhni = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/sifony/']"  # Сифоны для кухни
+    prigotovlenie_pishchi = "//div/a[@href = '/catalog/tekhnika-dlya-kukhni/krupnaya-kukhonnaya-tekhnika/']"       # Приготовление пищи
+    holodilnoe_oborudovanie = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/kholodilniki02802/']"       # Холодильное оборудование
+    posudomoechnye_mashiny = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/tekhnika-dlya-kukhni/posudomoechnye-mashiny/']"       # Посудомоечные машины
+    prigotovlenie_kofe = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/prigotovlenie-kofe/']"       # Приготовление кофе
+    prochie_tovary_dlya_kuhni = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/kukhonnaya-tekhnika/']"       # Прочие товары для кухни
+    bytovaya_himiya = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/bytovaya-khimiya00911/']"       # Бытовая химия
+    posuda = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/posuda00879/']"       # Посуда
+    aksessuary_dlya_kuhni = "//div/a[@href='/catalog/tekhnika-dlya-kukhni/aksessuary-dlya-kukhni01056/']"       # Аксессуары для кухни
+    filtry_dlya_ochistki_vody = "//div[@class = 'tabs__content_inner js-accord-content']/a[@href ='/catalog/tekhnika-dlya-kukhni/filtry-dlya-ochistki-vody/']"       # Фильтры для очистки воды
+    sifony_dlya_kuhni = "//div/a[@href ='/catalog/tekhnika-dlya-kukhni/sifony/']"       # Сифоны для кухни
 
 
     # Getters
