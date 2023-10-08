@@ -21,7 +21,7 @@ class Vse_tv_page(Base):
     vybor_smart_tv = "//label[@for='arrFilter_17_1004570158']//span[.='есть ']"       # Выбор наличиня Smart TV ( в данном случаей "есть")
     razreshenie_ekrana_spisok = "//span[.='Разрешение экрана']"       # Список разрешений экрана
     vybor_razreshenie_ekrana = "//span[.='4K Ulitra HD 3840х2160 ']"       # Выбоор разрешения экрана (в данном случае 4k)
-    product_1 = "//a[@id='clickym'][@data-id='1041898']"       # Кнопка "Купить" выбранного продукта (Телевизор LED 75" SAMSUNG QE75Q60ABUXRU)
+    product_1 = "//a[@id='clickym'][@data-id='1041898']"       # Кнопка "Купить" выбранного продукта (Телевизор LED 75" SAMSUNG QE75LS03AAUXRU)
     prod1_price = "//span[@id='product__price_1041898']//span[@class = 'product__new']"       # Цена продукта
     prod1_name = "//a[@href='/catalog/televizory-i-kino/televizory/led-televizory/133017/']//span[@itemprop='name']"       # Название продукта
 
