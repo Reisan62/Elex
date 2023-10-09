@@ -3,9 +3,9 @@ import pytest
 
 @pytest.fixture()
 def set_up():
-    print("Start test")
+    print("\n--Start test--")
     yield
-    print("Finish test")
+    print("\n--Finish test--")
 
 @pytest.fixture(scope="module")
 def set_group():
