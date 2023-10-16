@@ -8,10 +8,6 @@ from base.base_class import Base
 
 class Vse_tv_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 
     # Locators
 
@@ -89,7 +85,7 @@ class Vse_tv_page(Base):
 
     # Methods
 
-    def select_characteristics(self):
+    def select_characteristics(self):      # Выставляем наши фильтры "Бренд", "Наличие SMART", "Разрешение экрана"
         self.click_brend_spisok()
         time.sleep(1)
         self.click_vybor_brenda()
@@ -120,7 +116,7 @@ class Vse_tv_page(Base):
     def select_vybor_razreshenie_ekrana(self):
         self.click_vybor_razreshenie_ekrana()
 
-    def select_product_1(self):
+    def select_product_1(self):     # Выбираем наш продукт
         self.select_characteristics()
         prod_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable((By.XPATH, self.prod1_price))).text    # Записываем значение цены продукта в переменную до попадания в корзину
         prod_price = re.sub("[^0-9]", "", prod_price)    # Удаляем все символы кроме цифр из переменной

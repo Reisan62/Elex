@@ -6,10 +6,6 @@ from base.base_class import Base
 
 class Kompyutery_i_noutbuki_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 
     # Locators
 

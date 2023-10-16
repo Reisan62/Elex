@@ -6,11 +6,6 @@ from base.base_class import Base
 
 class Akkumulyatornyj_transport_i_aktivnyj_otdyh_page(Base):
 
-    def __init__(self, driver):
-
-        super().__init__(driver)
-        self.driver = driver
-
 
     # Locators
 

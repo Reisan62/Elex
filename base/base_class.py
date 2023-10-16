@@ -3,6 +3,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import re
+
+screen = 'C:\\Users\\baldy\\AquaProjects\\Elex\\screen\\'      # Ваш путь для скриншотов
+
 class Base():
     def __init__(self, driver):
         self.driver = driver
@@ -26,7 +29,7 @@ class Base():
     def get_screenshot(self):       # Делаем скриншот
         now_date = datetime.datetime.utcnow().strftime("%Y.%m.%d.%H.%M.%S")
         name_screenshot = 'screenshot ' + now_date + '.png'
-        self.driver.save_screenshot('C:\\Users\\baldy\\AquaProjects\\Elex\\screen\\' + name_screenshot)
+        self.driver.save_screenshot(screen + name_screenshot)
 
     """Method assert url"""
 
@@ -37,18 +40,15 @@ class Base():
 
     """Method enter cart"""
 
-    def enter_cart(self):
+    def enter_cart(self):       # Переходим в корзину
         cart = "//a[@class='header__cart']"
         WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable((By.XPATH, cart))).click()
         print("Enter cart")
 
     """Method assert final price"""
 
-    def assert_final_price(self):
+    def assert_final_price(self):       # Сравниваем финальцую цену продукта с ценой продукта в корзине
         cart_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable((By.XPATH, "//div[@class='cartPage__itemPriceNow item_price']"))).text.replace(' ', '')       # Цена товара в коризне
         final_price = WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable((By.XPATH, "//div[@class = 'cartPage__asidePriceTotal']"))).text.replace(' ', '')       # Итоговая цена
         assert cart_price == final_price
         print("Good value final price")
-
-    """Method assert final price"""
-

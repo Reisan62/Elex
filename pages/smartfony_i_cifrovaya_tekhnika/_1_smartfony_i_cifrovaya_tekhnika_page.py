@@ -6,10 +6,6 @@ from base.base_class import Base
 
 class Smartfony_i_cifrovaya_tekhnika_page(Base):
 
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
-
 
     # Locators
 

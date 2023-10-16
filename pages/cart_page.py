@@ -1,5 +1,4 @@
 import time
-
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -7,10 +6,6 @@ from base.base_class import Base
 
 
 class Cart_page(Base):
-
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.driver = driver
 
 
     # Locators
@@ -112,7 +107,7 @@ class Cart_page(Base):
 
     # Methods
 
-    def buy_without_authorization(self):
+    def buy_without_authorization(self):      # Нажимаем кнопку "Купить"", затем кнопку "Купить без авторизации", после чего снвоа кнопку "Купить", чтобы открылась форма для заполнения данных
         self.click_buy_button()
         time.sleep(2)
         self.click_buy_without_authorization_button()
@@ -126,7 +121,7 @@ class Cart_page(Base):
         self.assert_final_price()
         self.get_screenshot()
 
-    def input_personal_information(self):
+    def input_personal_information(self):      # Вводим персональную информацию пользователя
         self.input_fio_field("Иванов Иван Иванович")
         self.input_email_field("test@test.com")
         self.input_phone_field("9999999999")
@@ -136,7 +131,7 @@ class Cart_page(Base):
     def select_courier_button(self):
         self.click_courier_button()
 
-    def input_delivery_information(self):
+    def input_delivery_information(self):      # Вводим информацию о доставке
         self.input_street("Пушкина")
         self.input_home_number("77")
         self.input_kv_number("11")

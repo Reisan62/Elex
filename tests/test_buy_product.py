@@ -21,29 +21,31 @@ from pages.instrumenty._1_instrumenty_page import Instrumenty_page
 from pages.cart_page import Cart_page
 
 
-def test_buy_product_1(set_up):
+g = Service('C:\\Users\\baldy\\PycharmProjects\\resource\\chromedriver.exe')       # Путь к вашему chromedriver
+
+
+def test_buy_product_1(set_up):     # Смок покупка продукта с использованием нескольких фильтров и запоплнением данных покупателя, и доставки
     options = webdriver.ChromeOptions()
     options.add_experimental_option("detach", True)
     options.page_load_strategy = "none"
     options.add_argument('--ignore-ssl-errors')
     options.add_argument('--ignore-certificate-errors-spki-list')
-    g = Service('C:\\Users\\baldy\\PycharmProjects\\resource\\chromedriver.exe')
     driver = webdriver.Chrome(options=options, service=g,)
 
 
     mp = Main_page(driver)
-    mp.select_tv_and_kino()
+    mp.select_tv_and_kino()      # Выбираем на главной странице сайта категорию "Телевизоры и кино"
 
     tvp = Tv_and_kino_page(driver)
-    tvp.select_tv()
+    tvp.select_tv()      # Выбираем категорию "Телевизоры"
 
     tva = Televizory_page(driver)
-    tva.select_all_tv()
+    tva.select_all_tv()      # Выбираем категорию "Все телевизоры"
     time.sleep(40)     # Сайт долго прогружается
 
     prod1 = Vse_tv_page(driver)
-    prod1.select_product_1()
+    prod1.select_product_1()      # Выставляем наши фильтры и выбираем продукт, после чего, переходим в корзину
     time.sleep(2)
 
     cp = Cart_page(driver)
-    cp.buy_without_authorization()
+    cp.buy_without_authorization()      # Проводим оформление покупики и заполнение персональных данных покупателя
